@@ -1,0 +1,193 @@
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.product img {
+    width: 600px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    object-fit: contain;
+}
+
+.product h3 {
+    margin: 0;
+    color: #ccc;
+}
+
+.product p {
+    margin: 0;
+    color: #ccc;
+}
+body{
+    background-image: linear-gradient(90deg, #000609 0%, #24252b 35%, #12090c 100%);
+
+}
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.product img {
+    object-fit: contain;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.product img:hover {
+    transform: scale(1.3);
+}
+
+.product h3 {
+    margin: 0;
+}
+
+.product p {
+    margin: 0;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal img {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: contain;
+}
+
+.modal.show {
+    display: flex;
+}
+
+h1{
+    color:#ccc;
+    align-items: center;
+    display: flex;
+    font-size: 60px;
+    }
+
+
+    #logo {
+        display: block;
+        width: 100px;
+        position: fixed;
+        top: 0;
+        left: 0;
+      }
+      
+    
+    .carousel {
+        width: 800px;
+        height: 500px;
+        overflow: hidden;
+        margin: 0 auto;
+        /* Adiciona margem automática para centralizar horizontalmente */
+        display: flex;
+        /* Usa flexbox para centralizar verticalmente as imagens */
+        align-items: center;
+        /* Centraliza verticalmente as imagens */
+        justify-content: center;
+        /* Centraliza horizontalmente as imagens */
+        border-radius: 10px; /* valor em pixels */
+    }
+    
+    .carousel img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: none;
+    }
+    
+    .carousel img.active {
+        display: block;
+    }
+     
+    
+    *{
+      padding: 0;
+      margin: 0;
+      font-family: "inter", sans-serif;
+    }
+    
+    header{
+      background-color: black;
+      box-shadow: 0px 3px 10px #105603;
+    }
+    
+    .nav-bar{
+      display: flex;
+      justify-content: space-between;
+      padding: 1.5rem 6rem;
+    }
+    
+    .logo{
+      display: flex;
+      align-items: center;
+    
+    }
+    
+    .logo h1{
+    color: #fff;
+    }
+    
+    .nav-list{
+      display: flex;
+      align-items: center;
+    }
+    
+    .nav-list ul{
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      margin-top: 40px;
+      margin-right: 120px;
+    }
+    
+    .nav-item{
+      margin: 0 15px;
+    }
+    
+    .nav-link{
+      text-decoration: none;
+      font-size: 1.15rem;
+      position: center;
+      color: #fff;
+      font-weight: 400;
+    }
+
+    .Contato{
+        color:#fff;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .LINK{
+        color: #fff;
+        margin-left: 700px;
+      }
+      
